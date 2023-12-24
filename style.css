@@ -32,6 +32,11 @@ p {
   line-height: 1.5;
 }
 
+.greeting {
+  font-size: 48px;
+  font-weight: 600;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -96,4 +101,21 @@ p {
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2,
+  .greeting {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
